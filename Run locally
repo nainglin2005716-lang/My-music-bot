@@ -1,0 +1,24 @@
+cd path/to/my_music_bot
+pip  Pyrogram-2.0.106-py3-none-any.whl.metadata (4.4 kB)
+Collecting tgcrypto
+  Downloading TgCrypto-1.2.5.tar.gz (37 kB)
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+  Preparing metadata (pyproject.toml) ... done
+Collecting pyaes==1.6.1 (from pyrogram)
+  Downloading pyaes-1.6.1.tar.gz (28 kB)
+  Preparing metadata (setup.py) ... done
+Requirement already satisfied: pysocks==1.7.1 in /usr/local/lib/python3.12/dist-packages (from pyrogram) (1.7.1)
+Downloading Pyrogram-2.0.106-py3-none-any.whl (3.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.6/3.6 MB 70.8 MB/s eta 0:00:00
+Building wheels for collected packages: pyaes, tgcrypto
+  Building wheel for pyaes (setup.py) ... done
+  Created wheel for pyaes: filename=pyaes-1.6.1-py3-none-any.whl size=26347 sha256=e522bbb18bf792370d6fb7a528d9054eb9339f5e60f25d3b6bfb52d3554e891b
+  Stored in directory: /root/.cache/pip/wheels/d9/43/32/ec313dd557e88e419489b9df40c04dad7b99576bde162496f8
+  Building wheel for tgcrypto (pyproject.toml) ... done
+  Created wheel for tgcrypto: filename=tgcrypto-1.2.5-cp312-cp312-linux_x86_64.whl size=58716 sha256=7a346cf8df9b0ca0abc411cc7ddb92b16f8d85b2469e6144de99aa19a2852d02
+  Stored in directory: /root/.cache/pip/wheels/38/fd/41/685ff3dc08fc7a366ab3a5625966cc21fb06333451901e6ed3
+Successfully built pyaes tgcrypto
+Installing collected packages: pyaes, tgcrypto, pyrogram
+Successfully installed pyaes-r requirements.txt
+python main.py
