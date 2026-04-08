@@ -1,4 +1,4 @@
-cd path/to/my_music_bot
+cd path/to/@Music_is_important_bot
 pip  Pyrogram-2.0.106-py3-none-any.whl.metadata (4.4 kB)
 Collecting tgcrypto
   Downloading TgCrypto-1.2.5.tar.gz (37 kB)
