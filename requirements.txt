@@ -1,0 +1,6 @@
+pyrogram==2.0.106
+tgcrypto==1.2.5
+python-dotenv==1.2.2
+pytgcalls==3.0.0.dev24
+yt-dlp
+ffmpeg-python
